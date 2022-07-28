@@ -1,6 +1,6 @@
 
 /*====================MEDIA QUERY (medium devices)===========*/
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1300px) {
   .gallery-images {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -176,42 +176,42 @@
   @keyframes layout-change {
     0% {
       grid-template-areas:
-        "d e a"
-        "b c g"
-        "f f g"
-        "f f g";
+        "a1 a2 a3"
+        "a4 a5 a"
+        "ch ch a"
+        "ch ch a";
     }
 
     25% {
       grid-template-areas:
-        "f f g"
-        "f f g"
-        "b c g"
-        "e d a";
+        "ch ch a"
+        "ch ch a"
+        "a1 a2 a"
+        "a3 a4 a5";
     }
 
     50% {
       grid-template-areas:
-        "g b c"
-        "g d e"
-        "g f f"
-        "a f f";
+        "a a4 a5"
+        "a a2 a3"
+        "a ch ch"
+        "a1 ch ch";
     }
 
     75% {
       grid-template-areas:
-        "a b c"
-        "g d e"
-        "g f f"
-        "g f f";
+        "a1 a2 a3"
+        "a a4 a5"
+        "a ch ch"
+        "a ch ch";
     }
 
     100% {
       grid-template-areas:
-        "d e a"
-        "b c g"
-        "f f g"
-        "f f g";
+        "a3 a2 a1"
+        "a4 a5 a"
+        "ch ch a"
+        "ch ch a";
     }
   }
 
